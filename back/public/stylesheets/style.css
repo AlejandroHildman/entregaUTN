@@ -1,0 +1,35 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 0px;
+  background-color: #292929;
+}
+header {
+  background-color: rgb(0, 0, 0);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+header .holderImg img{
+  height: 65px;
+}
+
+
+
+footer {
+  margin-top: 25px;
+  background-color:#ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.contenido{
+  color: black;
+  background-color: white;
+  padding-top: 20px;
+  /* margin-top: -0px; */
+  padding-bottom: 20px;
+  margin-bottom: -25px;
+}

@@ -1,0 +1,285 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 0px;
+  background-color: #292929;
+}
+header {
+  background-color: rgb(0, 0, 0);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+header .holderImg img{
+  height: 65px;
+}
+
+
+
+nav {
+  background-color: rgb(23, 23, 23);
+  padding: 15px;  /*buena opcion , hace mas grande la barra del naav , no queda feo*/
+  margin-bottom: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+   flex-grow:1;
+}
+.holderNav {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%; 
+  text-align: center;
+}
+a {
+  text-decoration:none;
+  text-transform:uppercase;
+  color: white;
+}
+
+
+
+
+footer {
+  margin-top: 25px;
+  background-color:#ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* main {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%; 
+} */
+
+h2, h3, h4 {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+
+.presentacion{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  margin-top: -20px;
+}
+.presentacion .text{
+  flex: 1;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+.presentacion .text p{
+  font-size: 1.5rem;
+}
+.contactoPresentacion{
+  font-weight: bold;
+  color: rgb(212, 213, 194);
+  font-size: 1.7rem;
+}
+.presentacion .img{
+  flex: 1;
+}
+.presentacion .img img{
+  width: 100%;
+}
+
+
+
+.mica{
+  display: flex;
+  padding-top: 60px;
+  background-color: rgb(235, 235, 235);
+}
+.micaimg {
+  margin-left: 30px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.mica h3{
+  margin: auto;
+  width: 600px;
+}
+
+
+
+.ramas{
+  background-color: rgb(235, 235, 235);
+  padding-top: 1px;
+  padding: 1px 10px;
+}
+.ramas ul{
+  text-align: center;
+  margin: auto;
+}
+.ramas ul li{
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+}
+.ramas ul li:hover{
+  border: solid 2px rgb(67, 67, 67);
+  background-color: black;
+  color: white;
+}
+.cuadrado {
+  columns: 3;
+}
+
+
+
+.defensa{
+  height: 300px;
+  margin-bottom: -25px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.defensa p{
+  color: #b9b9b9;
+  font-size: 1.2rem;
+  width: 400px;
+  margin: 0px auto;
+  margin-bottom: 15px;
+}
+.defensa button{
+  width: 200px;
+  margin: 0px auto;
+  border-radius: 10px;
+  padding: 15px;
+  border: solid 2px rgb(24, 24, 24);
+  background-color: white;
+}
+.wpp {
+  width: 15px;
+  height: 17px;;
+}
+
+/* ESPECIALIDADES */
+.containerEspecialidades{
+  margin-top: -20px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.especialidades{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+.especialidades div{
+  text-align: center;
+  width: 100px;
+  margin: 20px;
+  padding: 0 35px;
+  background-color: #353535;
+  color: white;
+  border: 5px solid rgb(166, 166, 166);
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+.imgEspecialidad{
+  margin: auto;
+  text-align: center;
+}
+.imgEspecialidad img{
+  border-radius: 20px;
+}
+
+
+/* CONTACTO */
+.seccionContacto{
+  margin-top: -20px;
+  margin-bottom: -25px;
+}
+.tituloContacto{
+  background-color: white;
+  padding: 15px;
+  padding-top: 50px;
+}
+.contacto{
+  padding-top: 35px;
+  margin-top: -20px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap; 
+}
+.formulario {
+  display: flex;
+  flex: 1;
+  padding-bottom: 25px;
+ }
+ .formularios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  background-color: #d8d8d8;
+  margin: 0px 60px;
+  border-radius: 15px;
+ }  
+ .formularios input{
+  width: 75%;
+  display: flex;
+  margin: auto;
+ }
+.enviar{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.contacto .datos{
+  flex:1;
+  margin: auto;
+  text-align: center;
+}
+.contacto .datos ul li{
+  list-style: none;
+}
+.correo {
+  width: 15px;
+  height: 17px;
+}
+.facebook {
+  width: 15px;
+  height: 17px;
+}
+
+.novedades{
+  background-color: white;
+  padding-top: 35px;
+  margin-top: -20px;
+  margin-bottom: -25px;
+  padding-bottom: 25px;
+}
+.novedades h2{
+  margin-bottom: 50px;
+}
+.novedad{
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #e7e7e7;
+  border-radius: 25px;
+}
